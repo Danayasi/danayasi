@@ -10,6 +10,8 @@ body{
     background-size: cover;
 
     margin: auto;
+
+    background-attachment: scroll;
 }
 .title{
     font-family: comfortaa;
