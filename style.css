@@ -1,0 +1,89 @@
+body{
+    background-image: url(media/back.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-color: rgb(41, 41, 41);
+
+    margin: auto;
+}
+.title{
+    font-family: comfortaa;
+
+    font-size: 100px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    font-weight: 900;
+
+}
+
+.text{
+    font-family: comfortaa;
+
+    font-size: 25px;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.textForBox{
+    font-family: comfortaa;
+
+    font-size: 25px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    padding-top: 10px;
+    
+}
+
+.spec{
+    font-family: comfortaa;
+
+    font-size: 50px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    letter-spacing: 64px;
+
+}
+
+.block{
+
+    height: 260px;
+    
+    width: 512px;
+    
+    border: 10px white inset;
+
+    color: white;
+
+    border-radius: 74px;
+
+    margin: auto;
+
+    margin-bottom: 40px;
+
+}
+
+.imagee{
+    display: flex;
+
+    margin: auto;
+
+    margin-bottom:10px ;
+}
