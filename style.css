@@ -1,4 +1,5 @@
 body{
+
     background-image: url(/media/BACK.png);
 
     background-repeat: no-repeat;
@@ -14,6 +15,7 @@ body{
     background-attachment: scroll;
 }
 .title{
+
     font-family: comfortaa;
 
     font-size: 100px;
@@ -27,6 +29,7 @@ body{
 }
 
 .text{
+
     font-family: comfortaa;
 
     font-size: 25px;
@@ -37,6 +40,7 @@ body{
 }
 
 .textForBox{
+
     font-family: comfortaa;
 
     font-size: 25px;
@@ -50,6 +54,7 @@ body{
 }
 
 .spec{
+
     font-family: comfortaa;
 
     font-size: 50px;
@@ -58,9 +63,8 @@ body{
 
     color: #ffffff;
 
-    letter-spacing: 64px;
-
 }
+
 
 .block{
 
@@ -68,7 +72,7 @@ body{
     
     width: 512px;
     
-    border: 10px white inset;
+    border: 10px white solid;
 
     color: white;
 
@@ -85,5 +89,13 @@ body{
 
     margin: auto;
 
-    margin-bottom:10px ;
+    margin-bottom:20px ;
+}
+
+.zoom-effect {
+    transition: transform 0.2s;
+}
+  
+.zoom-effect:hover {
+    transform: scale(1.2);
 }
